@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { inter } from '@/app/ui/fonts';
+import { inter, roboto, ubuntu, redhat } from '@/app/ui/fonts';
 
 export default function RootLayout({
   children,
@@ -8,7 +8,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${redhat.className} antialiased`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
