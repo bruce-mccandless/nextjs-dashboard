@@ -9,7 +9,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${redhat.className} antialiased`}>{children}</body>
-      <body>{children}</body>
     </html>
   );
 }
